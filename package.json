@@ -1,0 +1,22 @@
+{
+  "name": "catch-ball",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "typescript": "^3.2.2",
+    "webpack": "^4.27.1"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.12",
+    "webpack-cli": "^3.1.2"
+  },
+  "scripts": {
+    "build": "tsc && npm run build:content && npm run build:webpack",
+    "build:webpack": "webpack",
+    "build:content": "node out/compiler.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
