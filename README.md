@@ -37,3 +37,8 @@ waitKey()
 コンソール操作で確認
 
 [![Image from Gyazo](https://i.gyazo.com/b9fdc7f63b778f3e743430e0bac0c1ca.gif)](https://gyazo.com/b9fdc7f63b778f3e743430e0bac0c1ca)
+
+# 解説
+- シナリオ記述部は文字列の置換がされてからトランスパイルされる
+- waitが付いているメソッドの頭にすべからく `yield* ` が挿入される
+- ジェネレータ実行ができるように `function*` で囲む
