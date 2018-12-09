@@ -1,4 +1,4 @@
-# catch-ball
+# scenario-generator
 
 TypeScriptを使ったシナリオ記述
 
